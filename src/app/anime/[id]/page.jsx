@@ -31,7 +31,7 @@ export default async function Page({ params }) {
           <p className="text-color-white">{anime.data.episodes}</p>
         </div>
       </div>
-      <div className="flex gap-6 pt-4 px-4 md:flex-nowrap flex-wrap">
+      <div className="my-4 md:my-0 flex gap-6 pt-4 px-4 md:flex-nowrap flex-wrap">
         <Image src={anime.data.images.webp.image_url} alt={anime.data.images.jpg.image_url} width={250} height={250} className="w-full rounded" />
         <p className="text-xl text-justify">{anime.data.synopsis}</p>
       </div>

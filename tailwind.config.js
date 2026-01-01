@@ -22,6 +22,7 @@ module.exports = {
         purple: '#f0abfc',
         red: '#dc2626',
         coklat: '#A0937D',
+        test: '#D2DCB6',
         1: '#436850',
         2: '#F8FAE5',
       }
